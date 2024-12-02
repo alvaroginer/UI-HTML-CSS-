@@ -1,0 +1,193 @@
+/* 01. ESTILOS GLOBALES */
+
+/* 01.1 Fuentes*/
+.font-titles {
+  font-family: Georgia, Garamond, serif;
+  color: #c0a060;
+}
+
+/* 01.2 Tamaño de fuentes*/
+.fontsize-little-text {
+  font-size: 0.875rem;
+}
+
+/* 01.ESTILOS DE ELEMENTO */
+body {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 1rem;
+  background-color: #f5e6d3;
+}
+
+/* 02.1 Tamaño de fuente */
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+/* 02.3 Estilos de elementos propios*/
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section {
+  margin-bottom: 3rem;
+  padding: 1.5rem;
+}
+
+article {
+  margin-bottom: 2rem;
+}
+
+header {
+  background: linear-gradient(45deg, #1a2c4e, #2a3c5e);
+  color: #c0a060;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 2rem 0;
+}
+
+aside {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 1rem;
+  color: #1a2c4e;
+}
+
+a {
+  color: #1a3c8c;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #c0a060;
+  text-decoration: solid;
+}
+
+img {
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.02);
+}
+
+ul {
+  list-style: disc;
+}
+
+/* 02. ESTILOS DE COMPONENTES */
+/* 01.1 Fuentes */
+.font-titles {
+  font-family: Georgia, Garamond, serif;
+  color: #c0a060;
+}
+
+/* 01.2 Tamaño de fuentes */
+.fontsize-little-text {
+  font-size: 0.875rem;
+}
+
+/* Secciones */
+.short-news-article {
+  border: 1px solid rgba(192, 160, 96, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  padding: 1.25rem;
+}
+
+/* Display de Noticias */
+.display-news {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* CLASES DE UTILIDAD */
+
+/* 01.1 Colores-Principales */
+.color-gold {
+  color: #c0a060;
+}
+
+.color-darkblue {
+  color: #1a2c4e;
+}
+
+.color-cream {
+  color: #f5e6d3;
+}
+
+/* 01.2 Colores-Secundarios */
+.color-secondary-red {
+  color: #8c1616;
+}
+
+.color-secondary-blue {
+  color: #1a3c8c;
+}
+
+.color-secondary-grey {
+  color: #707070;
+}
+
+/* Colores de fondo */
+.bckg-color-grey {
+  background-color: rgba(112, 112, 112, 0.2);
+}
+
+.bckg-color-cream {
+  background-color: #f5e6d3;
+}
+
+/* Tamaño de imágenes */
+.img-frontpage-newspaper {
+  width: 900px;
+}
+
+.img-news {
+  width: 300px;
+}
+
+.img-author {
+  width: 120px;
+  border-radius: 100px;
+}
+
+/* Alineación de textos */
+.text-align-center {
+  text-align: center;
+}
+
+/* Alineación de elementos */
+
+.columns-grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.individual-column-width {
+  width: 1fr;
+}
