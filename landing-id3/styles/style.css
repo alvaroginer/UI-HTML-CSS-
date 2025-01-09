@@ -1,0 +1,81 @@
+html {
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  height: 100vh;
+  /*background-size: contain;*/
+}
+
+header {
+  gap: 12px;
+  padding-bottom: 13px;
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+}
+
+h2 {
+  color: #ef7d00;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 0;
+}
+
+button {
+  background-color: #ef7d00;
+  color: white;
+  border-radius: 6px;
+  padding: 12px 24px;
+}
+
+.title-description {
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.hero-background {
+  background-image: url(../background/test-landing-id3\ 1.jpg);
+  background-size: cover;
+}
+
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Font-size */
+.page-title-size {
+  font-size: 48px;
+}
+
+/* Colors */
+.color-orange {
+  color: #ef7d00;
+}
+
+.color-gray {
+  color: #333;
+}
