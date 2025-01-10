@@ -10,11 +10,11 @@ body {
 
 section {
   height: 100vh;
-  /*background-size: contain;*/
+  padding: 12px;
+  /* background-size: contain; */
 }
 
 header {
-  gap: 12px;
   padding-bottom: 13px;
 }
 
@@ -32,11 +32,16 @@ h2 {
   margin: 0;
 }
 
+p {
+  margin: 0;
+}
+
 button {
   background-color: #ef7d00;
   color: white;
   border-radius: 6px;
   padding: 12px 24px;
+  border: none;
 }
 
 .title-description {
@@ -51,7 +56,6 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 12px;
 }
 
 .hero-background {
@@ -78,4 +82,14 @@ button {
 
 .color-gray {
   color: #333;
+}
+
+/* Margin */
+
+.margin-tb-48 {
+  margin: 48px 0;
+}
+
+.margin-bottom-12 {
+  margin-bottom: 12px;
 }
