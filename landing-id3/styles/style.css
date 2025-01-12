@@ -9,7 +9,7 @@ body {
 }
 
 section {
-  height: 100vh;
+  height: calc(100vh - 24px);
   padding: 12px;
   /* background-size: contain; */
 }
@@ -79,11 +79,14 @@ figcaption {
 }
 
 /* Student-Design Section */
-
+.height-without-48 {
+  height: calc(100vh - 120px);
+}
 .student-proyect {
   background-color: #333;
   padding: 0 15px;
   border-radius: 6px;
+  margin: 12px 0;
 }
 
 .buttoncontainer {
@@ -113,6 +116,10 @@ figcaption {
 
 .fs-15 {
   font-size: 15px;
+}
+
+.fs-20 {
+  font-size: 20px;
 }
 
 /* Font-weight */
