@@ -44,6 +44,13 @@ button {
   border: none;
 }
 
+figcaption {
+  padding: 15px;
+  margin-bottom: 18px;
+}
+
+/* Selectores de clase */
+
 .title-description {
   color: white;
   font-weight: 300;
@@ -52,6 +59,7 @@ button {
   margin-bottom: 12px;
 }
 
+/* Hero Section */
 .hero-section {
   display: flex;
   flex-direction: column;
@@ -70,9 +78,50 @@ button {
   align-items: center;
 }
 
+/* Student-Design Section */
+
+.student-proyect {
+  background-color: #333;
+  padding: 0 15px;
+  border-radius: 6px;
+}
+
+.buttoncontainer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 24px;
+}
+
+.buttoncontainer button {
+  background-color: #333;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Font-size */
 .page-title-size {
   font-size: 48px;
+}
+
+.fs-10 {
+  font-size: 10px;
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+
+/* Font-weight */
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-600 {
+  font-weight: 600;
 }
 
 /* Colors */
@@ -84,8 +133,11 @@ button {
   color: #333;
 }
 
-/* Margin */
+.color-white {
+  color: white;
+}
 
+/* Margin */
 .margin-tb-48 {
   margin: 48px 0;
 }
