@@ -9,7 +9,6 @@ body {
 }
 
 section {
-  height: calc(100vh - 24px);
   padding: 12px;
   /* background-size: contain; */
 }
@@ -36,20 +35,21 @@ p {
   margin: 0;
 }
 
-button {
-  background-color: #ef7d00;
-  color: white;
-  border-radius: 6px;
-  padding: 12px 24px;
-  border: none;
-}
-
 figcaption {
   padding: 15px;
   margin-bottom: 18px;
 }
 
 /* Selectores de clase */
+
+/* Botones */
+.btn {
+  background-color: #ef7d00;
+  color: white;
+  border-radius: 6px;
+  padding: 12px 24px;
+  border: none;
+}
 
 .title-description {
   color: white;
@@ -82,6 +82,7 @@ figcaption {
 .height-without-48 {
   height: calc(100vh - 120px);
 }
+
 .student-proyect {
   background-color: #333;
   padding: 0 15px;
@@ -93,9 +94,10 @@ figcaption {
   display: flex;
   justify-content: flex-end;
   gap: 24px;
+  width: 100%;
 }
 
-.buttoncontainer button {
+.buttoncontainer a {
   background-color: #333;
   width: 50px;
   height: 50px;
@@ -103,6 +105,21 @@ figcaption {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* Display */
+
+.display-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.display-center-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 /* Font-size */
@@ -131,6 +148,16 @@ figcaption {
   font-weight: 600;
 }
 
+/* Heigth */
+
+.height-100vh {
+  height: 100vh;
+}
+
+.height-100vh-48px {
+  height: calc(100vh-96px);
+}
+
 /* Colors */
 .color-orange {
   color: #ef7d00;
@@ -144,11 +171,51 @@ figcaption {
   color: white;
 }
 
+/* Background-color */
+.background-color-gray {
+  background-color: #eef0f5;
+}
+
 /* Margin */
+.margin-12px {
+  margin: 12px;
+}
+
 .margin-tb-48 {
   margin: 48px 0;
 }
 
 .margin-bottom-12 {
   margin-bottom: 12px;
+}
+
+.margin-bottom-48 {
+  margin-bottom: 48px;
+}
+
+.margin-bottom-58 {
+  margin-bottom: 58px;
+}
+
+.margin-bottom-84 {
+  margin-bottom: 84px;
+}
+
+.margin-none {
+  margin: 0;
+}
+
+/* Padding */
+.padding-tb-72 {
+  padding: 72px 0;
+}
+
+.padding-left-10 {
+  padding-left: 10px;
+}
+
+/* Text-Align */
+
+.text-align-center {
+  text-align: center;
 }
