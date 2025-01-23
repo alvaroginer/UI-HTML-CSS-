@@ -78,7 +78,6 @@ figcaption {
   align-items: center;
 }
 
-/* Student-Design Section */
 .section-height-without-48 {
   height: calc(100vh - 120px);
 }
