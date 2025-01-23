@@ -51,15 +51,7 @@ figcaption {
   border: none;
 }
 
-.title-description {
-  color: white;
-  font-weight: 300;
-  font-size: 20px;
-  margin: 0;
-  margin-bottom: 12px;
-}
-
-/* Hero Section */
+/* Section Properties */
 .hero-section {
   display: flex;
   flex-direction: column;
@@ -71,6 +63,14 @@ figcaption {
   background-size: cover;
 }
 
+.hero-title-description {
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
 .top-bar {
   display: flex;
   flex-direction: row;
@@ -79,18 +79,18 @@ figcaption {
 }
 
 /* Student-Design Section */
-.height-without-48 {
+.section-height-without-48 {
   height: calc(100vh - 120px);
 }
 
-.student-proyect {
+.section-img-background {
   background-color: #333;
   padding: 0 15px;
   border-radius: 6px;
   margin: 12px 0;
 }
 
-.buttoncontainer {
+.section-buttoncontainer {
   display: flex;
   justify-content: flex-end;
   gap: 24px;
@@ -123,7 +123,7 @@ figcaption {
 }
 
 /* Font-size */
-.page-title-size {
+.fs-48 {
   font-size: 48px;
 }
 
