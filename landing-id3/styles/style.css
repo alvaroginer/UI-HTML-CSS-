@@ -63,7 +63,7 @@ figcaption {
   background-size: cover;
 }
 
-.hero-title-description {
+.hero-title--description {
   color: white;
   font-weight: 300;
   font-size: 20px;
@@ -83,7 +83,7 @@ figcaption {
   height: calc(100vh - 120px);
 }
 
-.section-img-background {
+.section-img--background {
   background-color: #333;
   padding: 0 15px;
   border-radius: 6px;
@@ -108,22 +108,21 @@ figcaption {
 }
 
 /* Display */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
 
-.display-center {
+.flex-center--column {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.display-center-row {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-}
-
 /* Font-size */
-.fs-48 {
+.h2-fs--48 {
   font-size: 48px;
 }
 
@@ -181,23 +180,23 @@ figcaption {
   margin: 12px;
 }
 
-.margin-tb-48 {
+.margin-tb--48 {
   margin: 48px 0;
 }
 
-.margin-bottom-12 {
+.margin-bottom--12 {
   margin-bottom: 12px;
 }
 
-.margin-bottom-48 {
+.margin-bottom--48 {
   margin-bottom: 48px;
 }
 
-.margin-bottom-58 {
+.margin-bottom--58 {
   margin-bottom: 58px;
 }
 
-.margin-bottom-84 {
+.margin-bottom--84 {
   margin-bottom: 84px;
 }
 
@@ -206,16 +205,16 @@ figcaption {
 }
 
 /* Padding */
-.padding-tb-72 {
+.padding-tb--72 {
   padding: 72px 0;
 }
 
-.padding-left-10 {
+.padding-left--10 {
   padding-left: 10px;
 }
 
 /* Text-Align */
 
-.text-align-center {
+.text-align--center {
   text-align: center;
 }
