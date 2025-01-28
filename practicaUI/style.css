@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* div {
+  background-color: pink;
+  padding: 20px;
+  width: 100vw;
+} */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  gap: 20px;
+}
+
+a {
+  color: yellow;
+  text-decoration: none;
+}
+
+.color-green {
+  color: green;
+}
+
+.color-red {
+  color: red;
+}
