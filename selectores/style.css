@@ -1,0 +1,47 @@
+.card {
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  background-image: url(./niko-photos-tGTVxeOr_Rs-unsplash.jpg);
+  background-size: cover;
+  position: absolute;
+  border-radius: 40px;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-150px, -150px);
+}
+
+.card:after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.379);
+  position: absolute;
+  inset: 0;
+  transition: background-color ease 0.2s;
+}
+
+.card:hover:after {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.card:before {
+  content: "";
+  position: absolute;
+  inset: 100% 0 0 0;
+  transition: all ease 3s;
+}
+
+.card:hover:before {
+  background-color: rgba(0, 255, 255, 0.509);
+  inset: 0;
+}
+
+.card__text {
+  display: flex;
+  justify-content: center;
+  font-size: 27px;
+  font-weight: bold;
+  color: white;
+  z-index: 1;
+  position: relative;
+}
