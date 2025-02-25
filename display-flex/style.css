@@ -7,14 +7,8 @@ body {
 }
 
 /* Grid Display */
-.grid {
+.display-flex {
   display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
-.grid-row {
-  display: flex;
-  gap: 5px;
 }
 
 .item__100 {
@@ -31,6 +25,18 @@ body {
 
 .item__25 {
   flex: 0 0 25%;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.gap__5 {
+  gap: 5px;
 }
 
 .background-color__red {
